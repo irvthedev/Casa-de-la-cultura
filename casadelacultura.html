@@ -3,8 +3,6 @@
     <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <title>Home</title>
-        <meta name="description" content="Our first page">
-        <meta name="keywords" content="html tutorial template">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -22,7 +20,7 @@
             width: 70%;
         }
 
-        #introSection
+        .greenBackground
         {
             background-color: #9db946;
             
@@ -48,13 +46,58 @@
             line-height: 1.5em;
         }
 
+        .largeParagraph
+        {
+            font-size: 1.6em;
+        }
+
+        .whiteText
+        {
+            color: white;
+        }
+
+        .centerText
+        {
+            width: 55%;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7em;
+            margin-bottom: 2em;
+        }
+
+        .centerTextWide
+        {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7em;
+            margin-bottom: 2em;
+        }
+
+        .roundCorners
+        {
+            border-radius: 25px;
+        }
+
+        .svgContainer
+        {
+            
+        }
+
+        g
+        {
+            fill:white;
+            width: 50px !important;
+            height: fit-content;
+        }
+
         p i
         {
             font-size: 1.5em !important;
             font-family: 'helvetica' !important;
         }
 
-        h3
+        h2
         {
             font-family: 'Georgia';
         }
@@ -104,7 +147,7 @@
                     <img src="logo.jpeg">
                 </div>
             </div>
-            <div id="introSection" class="row">
+            <div class="row greenBackground">
                 <div class="container">
                     <div id="doloresHuerta">
                         <img src="Rosa-Dolores-instructing-farmworkers.jpeg">
@@ -131,13 +174,177 @@
 
             <div class="row">
                 <div class="col-4 text-center">
-                    <h3>Farm Worker Advocacy</h3>
+                    <h2>Farm Worker Advocacy</h3>
+                    <P class="largeParagraph">Free classes on literacy, music, computers, ESL, nutrition, cooking, sewing, and much more are offered to the community.</P>
                 </div>
                 <div class="col-4 text-center">
-                    <h3>Health Clinic & Wellness Center</h3>
+                    <h2>Health Clinic & Wellness Center</h3>
+                    <P class="largeParagraph">Free classes on literacy, music, computers, ESL, nutrition, cooking, sewing, and much more are offered to the community.</P>
                 </div>
                 <div class="col-4 text-center">
-                    <h3>Living Assistance</h3>
+                    <h2>Living Assistance</h3>
+                    <P class="largeParagraph">Free classes on literacy, music, computers, ESL, nutrition, cooking, sewing, and much more are offered to the community.</P>
+                </div>
+            </div>
+
+            <div id="historySection">
+                <div class="row mb-4" style="background-color: white; height: 4em;"></div>
+                <div class="row">
+                    <div class="col-6">
+                        1
+                    </div>
+                    <div class="col-6 greenBackground">
+                        <h2 class="largeText whiteText text-center mb-3" >History</h2>
+                        <P class="whiteText centerText">
+                            Casa de la Cultura Center is a high impact, grassroots, 501(c)3 nonprofit organization in Pajaro, CA. It was founded in 1989 by Sister Rosa Dolores Rodriguez.
+                        </P>
+                        <P class="whiteText centerText">
+                            We are the only nonprofit in the area that specializes in comprehensive services for the hundreds of families who migrate through the Watsonville and Salinas 
+                            Valleys to help grow and harvest the world's multi-billion dollar fresh food supply. Our clients sustain the berry, lettuce, grapes, celery, broccoli, artichoke 
+                            industries in this region. They are responsible for harvesting crops that reach all of our tables.
+                        </P>
+                        <P class="whiteText centerText">
+                            Casa de la Cultura Center provides emergency assistance to families grappling with an expensive housing market, the COVID-19 pandemic, and recent fires throughout 
+                            the area.
+                        </P>
+                        <P class="whiteText centerText">
+                            Each year we hold a special community event, Casa de la Cultura Center Christmas Posada, where businesses and community members come together to donate toys, food, 
+                            and celebrate the wonderful and valuable Pajaro community.
+                        </P>
+
+                        <div class="mt-4 centerText">
+                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=hello@casadelaculturacenter.org&item_name=SERVING%20FAMILIES%20IN%20PAJARO%20SINCE%201989&currency_code=USD" 
+                                target="_blank" class="btn btn-light btn-lg roundCorners">Donate Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-sm-0 col-lg-3"></div>
+                    <div class="col-lg-6 col-sm-12">
+                        <h1 class="text-center">Mission</h1>
+                        <p class="largeParagraph centerTextWide text-center" style="margin-bottom: 1em;">
+                            "I want others to be proud of who they are: their culture, their language, and to live their lives to the fullest." - Sister Rosa, Executive Director
+                        </p>
+                        <P class="centerTextWide text-center">
+                            When Sister Rosa Dolores was growing up, her family traveled to and from California as migrant workers. In 1966, she joined the Daughters of Charity of St. Vincent de Paul. In 1989, 
+                            Sister Rosa responded to a call to serve the people of Pajaro after the Loma Prieta earthquake. Sister Rosa began community organizing around infrastructure improvements and offering 
+                            skills training to women in the community.
+                        </P>
+                        <P class="centerTextWide text-center">
+                            To get to know Sister Rosa better, check out the article about her below in our News section or reach out to her in person!
+                        </P>
+                        <P class="centerTextWide text-center">
+                            Today, Casa de la Cultura Center operates as an independent nonprofit organization with a variety of programs and services for the community. The vision of Casa de la Cultura Center 
+                            is to promote culturally sensitive health activities and support the basic economic needs of our community by working collaboratively with all residents and organizations in the Pajaro area.
+                        </P>
+                    </div>
+                    <div class="col-sm-0 col-lg-3"></div>
+                </div>
+
+                <div class="row" style="margin-top: 50px;">
+                    <div class="center-block">
+                        <h2 class="whiteText text-center" style="background-color: black;">Contribute</h2>
+                    </div>
+                </div>
+
+                <div class="row greenBackground" style="margin-top: 50px;">
+                    <div class="col-sm-0 col-lg-3"></div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="svgContainer">
+                                    <svg>
+                                        <g>
+                                            <path d="M35.773 15h-9.06c2.985-1.382 7.085-3.769 7.557-6.635.165-1.004-.037-2.512-1.935-3.994-1.846-1.442-3.434-1.31-4.441-.945-3.223 1.166-5.246 6.348-6.223 9.597-.977-3.249-3-8.43-6.223-9.597-1.009-.365-2.597-.498-4.442.945-1.897 1.481-2.1 2.99-1.935 3.994.471 2.866 4.57 5.253 7.556 6.635H9.894a5.567 5.567 0 0 0-5.561 5.56v16.88A5.567 5.567 0 0 0 9.894 43h25.879a5.567 5.567 0 0 0 5.561-5.56V20.56A5.568 5.568 0 0 0 35.773 15zm-7.199-9.693c.226-.082.454-.123.688-.123.58 0 1.188.253 1.842.764 1.36 1.063 1.233 1.838 1.191 2.093-.373 2.273-5.481 4.919-8.886 6.179.906-3.13 2.785-8.053 5.165-8.913zM11.043 8.041c-.042-.255-.169-1.031 1.191-2.093.653-.51 1.262-.764 1.843-.764.233 0 .462.041.688.123 2.405.87 4.262 5.737 5.17 8.916-3.404-1.26-8.519-3.908-8.892-6.182zm9.091 6.906l.013.053h-.032l.019-.053zM9.894 41a3.565 3.565 0 0 1-3.561-3.56V20.56A3.565 3.565 0 0 1 9.894 17h11.439v24H9.894zm29.439-3.56A3.565 3.565 0 0 1 35.772 41H23.333V17h12.439a3.565 3.565 0 0 1 3.561 3.56v16.88z"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                
+                                <h2 class="whiteText text-center">Holiday Giving</h2>
+                                <br/>
+                                <h4 class="whiteText text-center m-4">3 ways to help</h4>
+                                <ol class="whiteText">
+                                    <li>
+                                        <p class="whiteText"> Become a Secret Santa! Adopt a child  or family in Pajaro. 
+                                            Secret Santas receive name/s, gender/s, age/s, and wish list/s.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="whiteText"> Attend our gift wrapping party to wrap toys donated by the community.</p>
+                                    </li>
+                                    <li>
+                                        <p class="whiteText"> Donate funds to purchase toys/gifts.</p>
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="col-4">
+                                <div class="svgContainer">
+                                    <svg>
+                                        <g>
+                                            <path d="M100.2 8.7c-50.6 0-91.8 41.2-91.8 91.8s41.2 91.8 91.8 91.8 91.8-41.2 91.8-91.8-41.1-91.8-91.8-91.8zm0 177.7c-47.3 0-85.8-38.5-85.8-85.8s38.5-85.8 85.8-85.8S186 53.3 186 100.6s-38.4 85.8-85.8 85.8z"></path>
+                                            <path d="M142.6 62.6c0-4-3.2-7.2-7.2-7.2s-7.2 3.2-7.2 7.2 3.2 7.2 7.2 7.2c.9 0 1.7-.2 2.5-.4.6 1.8.5 4.3-.8 7.2C126 100.1 97 101 83 100c-.9-3.6-4-6.3-7.7-6.6-10-37.8-.1-48.6 11.2-54.1 3.2-1.5 5.7-1.8 7.6-1.6.2 3.8 3.3 6.9 7.2 6.9 4 0 7.2-3.2 7.2-7.2s-3.2-7.2-7.2-7.2c-1.9 0-3.6.7-4.9 1.9-3.1-.6-7.4-.6-12.6 1.9-18.6 9-23.1 28.1-14.3 61.2-2.1 1.6-3.5 4.1-3.5 7 0 1.2.2 2.3.7 3.3l-.2-.2c-.5.7-11 18-3.8 33.8 4.8 10.6 16.2 17.7 33.9 21.1.7 4.3 4.4 7.6 8.9 7.6 4.9 0 9-4 9-9 0-4.9-4-9-9-9-3.3 0-6.2 1.8-7.7 4.4-15.7-3.1-25.6-9-29.6-17.7-4.8-10.6.6-22.8 2.7-26.8 1.2.6 2.5.9 3.9.9 3.3 0 6.2-1.9 7.6-4.6 2.4.2 5.3.4 8.4.4 16.6 0 41-4.2 51.7-27.3 2.6-5.6 2-10.8-.2-14.3.2-.7.3-1.5.3-2.2zm-37.3 92.1c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4 1.8-4 4-4z"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <h2 class="whiteText text-center">Health Clinic & Wellness Center</h2>
+                                <h4 class="whiteText text-center m-4">2 ways to help</h4>
+                                <ol class="whiteText">
+                                    <li>
+                                        <p class="whiteText"> Donate funds to expand and stock clinic supplies and resources.</p>
+                                    </li>
+                                    <li>
+                                        <p class="whiteText"> Contact our staff to volunteer your time and skills.</p>
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="col-4"> 
+                                <div class="svgContainer">
+                                    <svg>
+                                        <g>
+                                            <path d="M100 6.5C48.4 6.5 6.5 48.4 6.5 100s41.9 93.5 93.5 93.5 93.5-41.9 93.5-93.5S151.6 6.5 100 6.5zm0 182c-48.8 0-88.5-39.7-88.5-88.5S51.2 11.5 100 11.5s88.5 39.7 88.5 88.5-39.7 88.5-88.5 88.5zM51 149h42v-22h14v22h42V97H51v52zm5-47h88v42h-32v-22H88v22H56v-42zM45.9 88h108.3L100 41.7 45.9 88zm94.7-5H59.5L100 48.4 140.6 83z"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <h2 class="whiteText text-center">Community Outreach</h2>
+                                <h4 class="whiteText text-center m-4">2 ways to help</h4>
+                                <ol class="whiteText">
+                                    <li>
+                                        <p class="whiteText"> If you are a grower, invite us to your farms to offer our free 
+                                            mobile health education and screening services.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="whiteText"> Donate funds or your skills to enhance any of the programs and 
+                                            services.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="mt-4 centerText">
+                                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=hello@casadelaculturacenter.org&item_name=SERVING%20FAMILIES%20IN%20PAJARO%20SINCE%201989&currency_code=USD" 
+                                        target="_blank" class="btn btn-light btn-lg roundCorners">Donate</a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="mt-4 centerText">
+                                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=hello@casadelaculturacenter.org&item_name=SERVING%20FAMILIES%20IN%20PAJARO%20SINCE%201989&currency_code=USD" 
+                                        target="_blank" class="btn btn-light btn-lg roundCorners">Donate</a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="mt-4 centerText">
+                                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=hello@casadelaculturacenter.org&item_name=SERVING%20FAMILIES%20IN%20PAJARO%20SINCE%201989&currency_code=USD" 
+                                        target="_blank" class="btn btn-light btn-lg roundCorners">Donate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-0 col-lg-3"></div>
+                    
                 </div>
             </div>
         </div>
