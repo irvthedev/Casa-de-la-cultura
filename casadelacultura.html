@@ -134,10 +134,20 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+
+        html 
+        {
+            scroll-behavior: smooth;
+        }
+
+        .circularImage
+        {
+            border-radius: 50%; 
+        }
     </style>
     <body>
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-md navbar-light bg-light center-block" aria-label="Fourth navbar example">
+            <nav class="navbar navbar-expand-md navbar-light bg-light center" aria-label="Fourth navbar example">
                 <div class="container-fluid">
                   <div class="navbar-collapse collapse" id="navbarsExample04" style="">
                     <ul class="navbar-nav mr-auto">
@@ -145,25 +155,25 @@
                             <a class="nav-link navTitle" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link navTitle" href="#">Impact <span class="sr-only">(current)</span></a>
+                            <a class="nav-link navTitle" href="#impactSection">Impact <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link navTitle" href="#">History <span class="sr-only">(current)</span></a>
+                            <a class="nav-link navTitle" href="#historySection">History <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link navTitle" href="#">Mission <span class="sr-only">(current)</span></a>
+                            <a class="nav-link navTitle" href="#missionSection">Mission <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link navTitle" href="#">Contribute <span class="sr-only">(current)</span></a>
+                            <a class="nav-link navTitle" href="#contributeSection">Contribute <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link navTitle" href="#">Partners <span class="sr-only">(current)</span></a>
+                            <a class="nav-link navTitle" href="#partnersSection">Partners <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link navTitle" href="#">News <span class="sr-only">(current)</span></a>
+                            <a class="nav-link navTitle" href="#newsSection">News <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link navTitle" href="#">Contact <span class="sr-only">(current)</span></a>
+                            <a class="nav-link navTitle" href="#contactSection">Contact <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link navTitle" href="mailto:hello@casadelaculturacenter.org">hello@casadelaculturacenter.org</a>
@@ -199,7 +209,7 @@
                 </div>
             </div>
 
-            <div class="row mt-4">
+            <div id="impactSection" class="row mt-4">
                 <div class="col-12 text-center">
                     <img class="text-center" src="image1.jpeg" style="width: 100%; height: auto;">
                 </div>
@@ -230,34 +240,48 @@
                         <img style="width: 100%" src="https://static.wixstatic.com/media/f7c01e_894c4bea91574ded8af7b25884032723~mv2.png/v1/fill/w_356,h_383,fp_0.44_0.23,lg_1,q_85,enc_auto/f7c01e_894c4bea91574ded8af7b25884032723~mv2.png"/>
                     </div>
                     <div class="col-6 greenBackground">
-                        <h2 class="largeText whiteText text-center mb-3" >History</h2>
-                        <P class="whiteText centerText">
-                            Casa de la Cultura Center is a high impact, grassroots, 501(c)3 nonprofit organization in Pajaro, CA. It was founded in 1989 by Sister Rosa Dolores Rodriguez.
-                        </P>
-                        <P class="whiteText centerText">
-                            We are the only nonprofit in the area that specializes in comprehensive services for the hundreds of families who migrate through the Watsonville and Salinas 
-                            Valleys to help grow and harvest the world's multi-billion dollar fresh food supply. Our clients sustain the berry, lettuce, grapes, celery, broccoli, artichoke 
-                            industries in this region. They are responsible for harvesting crops that reach all of our tables.
-                        </P>
-                        <P class="whiteText centerText">
-                            Casa de la Cultura Center provides emergency assistance to families grappling with an expensive housing market, the COVID-19 pandemic, and recent fires throughout 
-                            the area.
-                        </P>
-                        <P class="whiteText centerText">
-                            Each year we hold a special community event, Casa de la Cultura Center Christmas Posada, where businesses and community members come together to donate toys, food, 
-                            and celebrate the wonderful and valuable Pajaro community.
-                        </P>
+                        <div class="row">
+                            <div class="col-md-0 col-lg-3"></div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2 class="largeText whiteText text-center mb-3" >History</h2>
+                                        <P class="whiteText mb-4">
+                                            Casa de la Cultura Center is a high impact, grassroots, 501(c)3 nonprofit organization in Pajaro, CA. It was founded in 1989 by Sister Rosa Dolores Rodriguez.
+                                        </P>
+                                        <P class="whiteText mb-4">
+                                            We are the only nonprofit in the area that specializes in comprehensive services for the hundreds of families who migrate through the Watsonville and Salinas 
+                                            Valleys to help grow and harvest the world's multi-billion dollar fresh food supply. Our clients sustain the berry, lettuce, grapes, celery, broccoli, artichoke 
+                                            industries in this region. They are responsible for harvesting crops that reach all of our tables.
+                                        </P>
+                                        <P class="whiteText mb-4">
+                                            Casa de la Cultura Center provides emergency assistance to families grappling with an expensive housing market, the COVID-19 pandemic, and recent fires throughout 
+                                            the area.
+                                        </P>
+                                        <P class="whiteText mb-4">
+                                            Each year we hold a special community event, Casa de la Cultura Center Christmas Posada, where businesses and community members come together to donate toys, food, 
+                                            and celebrate the wonderful and valuable Pajaro community.
+                                        </P>
 
-                        <div class="mt-4 centerText">
-                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=hello@casadelaculturacenter.org&item_name=SERVING%20FAMILIES%20IN%20PAJARO%20SINCE%201989&currency_code=USD" 
-                                target="_blank" class="btn btn-light btn-lg roundCorners">Donate Now</a>
+                                        <div class="mt-4 mb-4">
+                                            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=hello@casadelaculturacenter.org&item_name=SERVING%20FAMILIES%20IN%20PAJARO%20SINCE%201989&currency_code=USD" 
+                                                target="_blank" class="btn btn-light btn-lg roundCorners">Donate Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-0 col-lg-3"></div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row" style="margin-top: 50px;">
+                <div class="row" id="missionSection" style="margin-top: 50px;">
                     <div class="col-sm-0 col-lg-3"></div>
                     <div class="col-lg-6 col-sm-12">
+                        <div class="text-center">
+                            <img class="circularImage" src="https://static.wixstatic.com/media/f7c01e_bce0b7bd19e44e8b8e5bd872b8b5ae85~mv2.jpg/v1/crop/x_117,y_0,w_768,h_768/fill/w_301,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/GWPajaroSRDTeaching.jpg" />
+                        </div>
+                        
                         <h1 class="text-center">Mission</h1>
                         <p class="largeParagraph centerTextWide text-center" style="margin-bottom: 1em;">
                             "I want others to be proud of who they are: their culture, their language, and to live their lives to the fullest." - Sister Rosa, Executive Director
@@ -278,7 +302,7 @@
                     <div class="col-sm-0 col-lg-3"></div>
                 </div>
 
-                <div class="row" style="margin-top: 50px;">
+                <div id="contributeSection"  class="row" style="margin-top: 50px;">
                     <div class="center-block">
                         <div style="position:relative;">
                             <img src="https://static.wixstatic.com/media/f7c01e_9f0e6d7e1677453883865739df8bfc96~mv2.png/v1/fill/w_864,h_182,al_c,lg_1,q_85,enc_auto/f7c01e_9f0e6d7e1677453883865739df8bfc96~mv2.png"
@@ -368,7 +392,7 @@
                     
                 </div>
 
-                <div class="row" style="margin-top: 50px;">
+                <div id="partnersSection" class="row" style="margin-top: 50px;">
                     <div class="col-sm-0 col-lg-3"></div>
                     <div class="col">
                         <h1 >Partners</h1>
@@ -424,7 +448,7 @@
                     <div class="col-sm-0 col-lg-3"></div>
                 </div>
 
-                <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+                <div id="newsSection" class="row" style="margin-top: 50px; margin-bottom: 50px;">
                     <div class="col-sm-0 col-lg-3"></div>
                     <div class="col">
                         <div class="rowGroup">
@@ -543,7 +567,7 @@
                     <div class="col-sm-0 col-lg-3"></div>
                 </div>
 
-                <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+                <div id="contactSection" class="row" style="margin-top: 50px; margin-bottom: 50px;">
                     <div class="col-sm-0 col-lg-1"></div>
                     <div class="col">
                         <div class="greenBackground">
